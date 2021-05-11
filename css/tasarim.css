@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+
+body
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+    background: #a6deee;
+    font-family: sans-serif;
+
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+
+    
+
+  
+   
+} 
+
+
+
+
+.alan{
+    display: flex;
+    width: 100%;
+    height: 45.10rem;
+    height: 45.10rem;
+   
+
+ 
+  
+
+   
+   /*ALT ALTA sıralıyor*/
+    justify-content: center;/*divi ortalıyor*/
+   /*  altta açtığımız yazıları ortalıyor    */
+
+   
+   
+  
+}
+
+.alans{
+    
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    height: 40rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+    
+
+}
+
+
+.box {
+  display: flex;
+  width:auto;
+
+
+  background-color:#000000;
+  margin:0 auto;
+  float:left;
+  font-size:2.5rem;
+  padding:5px;
+  color:#fff;
+}
+
+/* Step 1: Build the Animation */
+@-webkit-keyframes aniload {
+  from {-webkit-transform:translate(0px, 1000px)}
+  to   {-webkit-transform:translate(0px, 0px)}
+}
+
+@-moz-keyframes aniload {
+  from {-moz-transform:translate(0px, 1000px)}
+  to   {-moz-transform:translate(0px, 0px)}
+}
+
+@-ms-keyframes aniload {
+  from {-ms-transform:translate(0px, 1000px)}
+  to   {-ms-transform:translate(0px, 0px)}
+}
+
+@-o-keyframes aniload {
+  from {-o-transform:translate(0px, 1000px)}
+  to   {-o-transform:translate(0px, 0px)}
+}
+
+@keyframes aniload {
+  from {transform:translate(0px, 1000px)}
+  to   {transform:translate(0px, 0px)}
+}
+
+/* Step 2: Call the Animation */
+#box1 {
+  -webkit-animation:aniload 1s;
+  -moz-animation:aniload 1s;
+  -ms-animation:aniload 1s;
+  -o-animation:aniload 1s;
+  animation:aniload 1s;
+}
+
+#box2 {
+  -webkit-animation:aniload 2s;
+  -moz-animation:aniload 2s;
+  -ms-animation:aniload 2s;
+  -o-animation:aniload 2s;
+  animation:aniload 2s;
+}
+
+#box3 { 
+  
+  -webkit-animation:aniload 3s;
+  -moz-animation:aniload 3s;
+  -ms-animation:aniload 3s;
+  -o-animation:aniload 3s;
+  animation:aniload 3s;
+}
+
+#box4 {
+  -webkit-animation:aniload 4s;
+  -moz-animation:aniload 4s;
+  -ms-animation:aniload 4s;
+  -o-animation:aniload 4s;
+  animation:aniload 4s;
+}
+
+#box5 {
+  -webkit-animation:aniload 5s;
+  -moz-animation:aniload 5s;
+  -ms-animation:aniload 5s;
+  -o-animation:aniload 5s;
+  animation:aniload 5s;
+}
+
+#box6 {
+  -webkit-animation:aniload 6s;
+  -moz-animation:aniload 6s;
+  -ms-animation:aniload 6s;
+  -o-animation:aniload 6s;
+  animation:aniload 6s;
+}
+
+
+
+
+ .butonlar{
+     width: 60%;
+     height: 35rem;
+   display: flex;
+  
+   align-items: center;
+   justify-content: space-evenly;
+
+   text-decoration: none;
+
+    
+ }
+.button1{
+  height: 150px;
+  width: 400px;
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #bdb7b7;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+background-color: rgb(255, 255, 255);
+font-weight:400;
+color:#ff1515;
+text-align:center;
+transition: all 0.2s;
+ }
+.button1:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+a.button1{
+display:block;
+margin:0.4em auto;
+align-items: center;
+}
+}
+
+
+ 
+ 
+.bouncy{
+animation:bouncy 4s infinite linear;
+position:relative;
+  }
+  
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+}
+
+
+
+
+
+  @media(max-widht:500px){
+    body
+    {
+        
+        height: 100%;
+        width: 100%;
+    }
+
+    .alan{
+      width: 100%;
+      height: 45.10rem;
+      
+    }
+
+    .alans{
+      width: 80%;
+      height: 40rem;
+
+    }
+
+    .butonlar{
+      width: 60%;
+     
+      height: 35rem;
+    }
+
+  }

@@ -1,0 +1,495 @@
+* {
+    margin: 0; 
+    padding: 0;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+body{
+     height: 100%;
+}
+
+.AdminContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.AdminMenu{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+}
+
+.AdminMenuIcon{
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+.AdminMenuIcon a{
+    display: flex;
+    color:white;
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 3.5rem;
+    margin-top: 1vh;
+}
+.AdminMenuIcon i{
+display: flex;
+margin:1.25vh;
+margin-top:1.5vh;
+justify-content: center;
+}
+.AdminMenuButtons{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0); 
+    flex-direction: column;   
+}
+
+.MenuItem{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid rgb(66, 66, 63);
+    border-top: 0.20rem solid rgb(66, 66, 63);
+    align-items: center;
+    
+}
+.MenuItem a{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;         
+    justify-content: center;  
+    align-items: center;  
+    color: white;   
+    
+}
+.MenuItem i{
+    display: flex;
+    justify-content: center;
+}
+
+
+.MenuItem1{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid  rgb(66, 66, 63);
+    align-items: center;
+
+
+}
+.MenuItem1 a{
+    display: flex;
+    height: 100%; 
+    width: 100%;     
+    font-family: "Times New Roman", Times, serif;    
+    justify-content: center;  
+    align-items: center;  
+    color: white; 
+}
+.MenuItem1 i{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.MenuItem2{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid  rgb(66, 66, 63);
+    align-items: center;
+
+}
+.MenuItem2 a{
+    display: flex;
+    height: 100%; 
+    width: 100%;    
+    font-family: "Times New Roman", Times, serif;    
+    justify-content: center;  
+    align-items: center;  
+    color: white; 
+    
+}
+.MenuItem2 i{    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.MenuItem3{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid  rgb(66, 66, 63);
+    align-items: center;
+
+}
+
+.MenuItem3 a{
+    display: flex;
+    height: 100%; 
+    width: 100%; 
+    font-family: "Times New Roman", Times, serif;        
+    justify-content: center;  
+    align-items: center;  
+    color: white; 
+}
+.MenuItem3 i{
+    display: flex;
+    justify-content: center;
+}
+
+.MenuItem4{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid rgb(66, 66, 63);
+    border-bottom: 0.20rem solid rgb(66, 66, 63);
+    align-items: center;
+}
+.MenuItem4 a{
+    display: flex;
+    height: 100%; 
+    width: 100%;    
+    font-family: "Times New Roman", Times, serif;     
+    justify-content: center;  
+    align-items: center;  
+    color: white; 
+}
+.MenuItem4 i{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.MenuItem5{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    font-size: 1.4rem;
+    border: 0.15rem solid rgb(66, 66, 63);
+    border-bottom: 0.20rem solid rgb(66, 66, 63);
+    align-items: center;
+}
+.MenuItem5 a{
+    display: flex;
+    height: 100%; 
+    width: 100%;    
+    font-family: "Times New Roman", Times, serif;     
+    justify-content: center;  
+    align-items: center;
+    color:white;  
+ 
+}
+.MenuItem5 i{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.AdminSection{
+    display: flex;  
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+
+.AdminBar{
+    display: flex;  
+    width: 100%;
+    height: 12%;   
+    background-color: rgb(182, 40, 40); 
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.AdminSectionInner{
+    display: flex;  
+    width: 100%;
+    height: 88%;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column; 
+}
+
+.AdminSectionTable{
+    display: flex;
+    width: 80%;
+    height: 25%;
+   
+    
+}
+
+/*////////////////////- ACTION FOR BUTTONS-\\\\\\\\\\\\\\\\\\\\\*/
+
+.AdminMenuIcon a:hover{    
+        text-decoration: none;
+        color:white;
+           
+}
+.MenuItem:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;       
+}
+
+.MenuItem a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.MenuItem1:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;    
+}
+.MenuItem1 a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.MenuItem2:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;    
+}
+.MenuItem2 a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.MenuItem3:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;    
+}
+.MenuItem3 a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.MenuItem4:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;    
+}
+.MenuItem4 a:hover{
+    text-decoration: none;
+    color:white;
+}
+.MenuItem5:hover{
+    display: flex;   
+    height: 15%;
+    width: 100%;    
+    border: 0.15rem solid  rgb(246, 247, 248);
+    border-top: 0.20rem solid rgb(244, 247, 248);
+    transition: 1.25s;    
+}
+.MenuItem5 a:hover{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width:768px){
+
+.AdminContainer{
+    width: 100%;
+    height:100vh;
+    flex-direction:column;
+    
+}
+.AdminSection{
+    height:100%;
+    width: 100%;
+
+}
+.AdminSectionInner{
+    width: 100%;
+}
+.AdminSectionTable{   
+    width: 100%;
+}
+
+.AdminBar{
+    width: 100%;
+}   
+
+.AdminMenu{    
+ width: 100%;
+ height:50%;  
+   
+}
+.AdminMenuIcon{
+       height:30%;
+
+}
+.AdminMenuIcon i{
+        width:100%;
+        margin-left:8.8rem;               
+}
+
+.MenuItem{
+    height: 19%;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+.MenuItem i{
+    width: 10%; 
+    text-align: center;
+}
+.MenuItem1{   
+  height: 19%;
+  justify-content: flex-start;
+  text-align: center;
+}
+.MenuItem1 i{   
+     
+    width: 10%;
+    height:100% ;
+}
+.MenuItem2{
+    height: 19%;
+    
+}
+.MenuItem2 i{  
+    width: 10%;
+}
+.MenuItem3{
+    height: 19%;
+    
+}
+.MenuItem3 i{    
+    width: 10%;
+    
+}
+.MenuItem4{ 
+    height: 19%;
+    
+}
+.MenuItem4 i{       
+    width: 10%;
+}
+.MenuItem5{ 
+    height: 19%;
+    
+}
+.MenuItem5 i{       
+    width: 10%;
+}
+
+}
+/*//////////////////////////// 560px genişliğindeki telefon\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@media screen and (max-width:560px){
+
+ 
+    .AdminContainer{
+        display:flex;
+        width: 131.1%;
+        height:100%;
+        flex-direction:column;
+        
+    }
+      
+    .AdminBar{
+        display:flex;
+        width: 100%;     
+    }   
+     .AdminMenuIcon a{
+        height: 100%;
+        width: 50%;
+       text-align: start;
+       font-size:4rem;
+
+    }
+    .AdminMenuIcon i{
+       width: 8%;  
+    }
+    
+    .AdminMenu{ 
+    display:flex;   
+     width: 100%;
+     height:70%;  
+       
+    }
+    .AdminMenuIcon{
+       display:flex;
+       height:30%;       
+    }   
+    .AdminMenuIcon i{
+        display:flex; 
+        text-align: center;           
+     }
+  
+    }
+    /*/////////////////// İphone x\\\\\\\\\\\\\\\\\\\\\\\*/
+
+    @media screen and (max-width:376px){
+
+        .AdminContainer{
+          width: 98%;
+        }
+       
+        .AdminMenu{
+            width: 200%;
+        }
+        
+        .AdminMenuIcon{
+          width: 100%;
+        }
+        .AdminMenuIcon i{
+            width: 10%;
+            margin-top: 2vh;
+            margin-right: 1vh;
+        }
+        .AdminBar{
+            width: 200%;
+        }
+    }

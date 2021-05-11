@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    box-sizing:border-box;
+    
+}
+body{
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    height: 100vh;  
+    
+}
+.txt{
+display:flex;
+width: 55%;
+height:100%;
+align-items: center;
+justify-content: center;
+background-image: url('/kan_bankasi/images/blur.jpg');
+
+}
+.txt_1{
+    display: flex;
+    width:60%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;        
+}
+.txt h1{
+display: flex;
+width: 100%;
+height: 5%;
+margin:10vh;
+color:red;  
+font-size:2.050rem;
+}
+.txt p{
+display: flex;
+width: 100%;
+height: 95%;
+margin:1vh;
+font-size:1.9rem;
+align-items: center;
+color:white;
+font-family: Arial, Helvetica, sans-serif
+
+
+}
+.panel{
+    display:flex;
+    width: 45%;
+    height:100%;
+    background-color: #e72b28   ;
+    justify-content: flex-end;
+}
+.panel_1{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background: #FC2622;        
+    flex-direction: column;    
+    justify-content: space-between;
+    align-items: center;  
+}
+.signup_inputs{
+display:flex;
+align-items: flex-start;
+flex-direction: column; 
+width:100%;
+height: 75%;
+margin-top:2vh;
+
+
+}
+
+.user_id{
+display:flex;
+width: 80%;
+height: 20%;  
+margin-top:5vh;
+margin-left:4vh;
+
+ 
+}
+.user_id input{
+display:flex;
+width: 85%;
+height:100%;
+font-size: 1.5rem;    
+color:white;
+background: rgba(255, 106, 106, 0.623);
+border-top: none;  
+border-bottom:none;
+border-right: none;
+border-left: 5px solid rgb(0, 162, 255);
+}
+.user_id input:focus{
+    width:100%;
+    outline: 0;  
+    border-right:5px solid rgb(0, 162, 255);      
+    background: rgb(255, 106, 106);   
+    transition: 1s;    
+}
+.user_id input:hover{
+    background: rgb(170, 96, 96);
+    transition: 1.5s;
+}
+.user_id input::placeholder{
+    display:flex;
+    color:white;
+    opacity: 0.5;
+}
+.user_passwd{
+display:flex;
+width: 80%;
+height:20%;
+font-size: 1.5rem;   
+margin:4vh;
+margin-top:5vh;
+
+}
+.mail_id{
+    display:flex;
+    width: 80%;
+    height: 20%;  
+    margin-top:5vh;
+    margin-left:4vh;
+}
+.mail_id input{
+    display:flex;
+    width: 85%;
+    height:100%;
+    font-size: 1.5rem;    
+    color:white;
+    background: rgba(255, 106, 106, 0.623);
+    border-top: none;  
+    border-bottom:none;
+    border-right: none;
+    border-left: 5px solid rgb(0, 162, 255);
+}
+.mail_id input:focus{
+    width:100%;
+    outline: 0;  
+    border-right:5px solid rgb(0, 162, 255);      
+    background: rgb(255, 106, 106);   
+    transition: 1.5s;
+}
+.mail_id input:hover{
+    background: rgb(170, 96, 96);
+    transition: 1.5s;
+}
+.mail_id input::placeholder{
+    display:flex;
+    color:white;
+    opacity: 0.5;
+    opacity: 0.5;
+}
+
+
+.user_passwd input{
+    display:flex;
+    width: 85%;
+    height:100%;    
+    align-self: center;
+    font-size: 25px;   
+    color:white;
+    background: rgba(255, 106, 106, 0.623);
+    border-top: none;  
+    border-bottom:none;
+    border-right: none;
+    border-left: 5px solid rgb(0, 162, 255);
+}
+.user_passwd input:focus{
+    width:100%;   
+    outline: 0;
+    border-right: 5px solid rgb(0, 162, 255);    
+    background: rgb(255, 106, 106);   
+    transition: 1.5s;
+}
+.user_passwd input:hover{
+    background: rgb(170, 96, 96);
+    transition: 1.5s;
+}
+.user_passwd input::placeholder{
+    display:flex;
+    color:white;
+    opacity: 0.5;
+}
+.user_passwd_again{
+display:flex;
+width: 80%;
+height:20%;
+font-size: 1.5rem;   
+margin:4vh;
+margin-top:1vh;
+
+}
+.user_passwd_again input{
+    display:flex;
+    width: 85%;
+    height:100%;    
+    align-self: center;
+    font-size: 1.5rem;   
+    color:white;
+    background: rgba(255, 106, 106, 0.623);
+    border-top: none;  
+    border-bottom:none;
+    border-right: none;
+    border-left: 5px solid rgb(0, 162, 255);
+
+}
+.user_passwd_again input:focus{
+    width:100%;   
+    outline: 0;
+    border-right: 5px solid rgb(0, 162, 255);    
+    background: rgb(255, 106, 106);   
+    transition: 1.5s;
+}
+.user_passwd_again input:hover{
+    background: rgb(170, 96, 96);
+    transition: 1.5s;
+}
+.user_passwd_again input::placeholder{
+    display:flex;
+    color:white;
+    opacity: 0.5;
+}
+.signup_button{
+    display: flex;    
+    font-weight:bold;    
+    width:100%;
+    height: 25%;       
+    align-items: flex-start;
+    flex-direction: column; 
+    margin:2vh;
+
+}
+
+.btn{
+    display: flex;
+    width: 68%;
+    height:32%;
+    background: rgba(255, 106, 106, 0.822);
+    border-radius:0;
+    border:none;
+    font-size:1.3rem;    
+    color:rgba(0, 0, 0, 0.479);
+    margin:1.5vh;
+    margin-left:5vh;
+    justify-content: center;
+    
+}
+.btn:hover{
+    width: 69%;
+    height:28%;
+    transition: 1s;
+    outline: 1px solid rgb(0, 162, 255,0.274);
+    margin-top: 2vh;
+    margin-left:6vh;
+    font-size:1.45rem;
+}
+
+ 
+
+.btn_1{
+    display: flex;
+    width: 68%;
+    height:32%;
+    background: rgba(255, 106, 106, 0.822);
+    border-radius:0;
+    border:none;
+    font-size:1.2rem;    
+    color:rgba(0, 0, 0, 0.479);
+    justify-content: center;
+    margin:1.5vh;
+    margin-left:5vh;
+   
+}
+
+
+.btn_1:hover{
+    width: 69%;
+    height:28%;
+    transition: 1s;
+    outline:1px solid rgba(0, 162, 255, 0.274);
+    margin: 2vh;
+    margin-left:6vh;
+    font-size:1.3rem;
+    
+}
+
+
+
+/*//////////////////////////////// FOR IPAD/////////////////////////////*/
+@media screen and (max-width:768px){
+       
+ 
+    .container{        
+        width: 100%;                
+    }
+    .txt{
+        display:none;
+    }
+       
+    .panel{   
+    width: 100%;
+    height:100%;    
+    justify-content: center;
+}
+    .panel_1{
+    display: flex;
+    width: 87%;
+    height: 100%;   
+    align-items: center;  
+    }
+ 
+    .user_id{       
+    margin-top:14vh;
+    margin-left:10vh; 
+}
+.user_id input{
+    
+    width: 82%;
+    height:100%;
+    font-size: 1.5rem;    
+    
+    }  
+    .mail_id{
+    margin-top:5vh;
+    margin-left:10vh;
+
+    }
+    .mail_id input{
+        width: 82%;
+        height:100%;
+        font-size: 1.5rem;  
+    }
+
+
+    .user_passwd{   
+    margin-left:10vh;
+    }
+
+    .user_passwd input{       
+        width: 82%;
+        height:100%;       
+        font-size: 1.5rem;   
+    }    
+    .user_passwd_again{
+        margin-left:10vh;
+    }
+    .user_passwd_again input{
+        width: 82%;
+        height:100%;       
+        font-size: 1.5rem;
+    }
+   
+    .btn{
+        width: 70%;
+        height:22%;            
+        font-size:1.6rem;      
+        margin:1.5vh;
+        margin-left:10vh;             
+    }
+       
+    .btn_1{
+        width: 70%;
+        height:22%;       
+        font-size:1.6rem;    
+        margin:1.5vh;
+        margin-left:10vh;
+       
+    }
+      
+
+}
+
+
+/*//////////////////////////// IPHONE X \\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@media screen and (max-width:560px) {
+       
+  
+    .container{        
+        width: 100%;                    
+    }
+    .txt{
+        display:none;
+    }
+       
+    .panel{   
+    width: 100%;
+    height:100%;    
+    justify-content: center;
+}
+    .panel_1{
+    display: flex;
+    width: 80%;
+    height: 100%;   
+    align-items: center;  
+    }
+ 
+    .user_id{     
+    margin-top:10vh;
+    margin-left:4vh; 
+    
+}
+.user_id input{
+    
+    width: 90%;
+    height:65%;
+    font-size: 1rem;   
+    }  
+.mail_id{
+    margin-top:0vh;
+    margin-left:4vh;
+    margin-bottom:0vh;
+}
+.mail_id input{
+    width: 90%;
+    height:65%;
+    font-size: 1rem;  
+}
+
+    .user_passwd{   
+    margin:0vh;
+    margin-left:4vh;
+    }
+    
+    .user_passwd input{       
+        width: 90%;
+        height:65%;       
+        font-size:1rem;
+    }   
+    .user_passwd_again{
+        margin:0vh;
+        margin-left:4vh;
+    }
+    .user_passwd_again input{
+        width: 90%;
+        height:65%;       
+        font-size:1rem;
+    }
+    
+    
+    .btn{
+        width: 72%;
+        height:16%;            
+        font-size:1.2rem;      
+        margin:1.5vh;
+        margin-left:6vh;   
+        margin-top:0vh;              
+    }
+       
+    .btn_1{
+        width: 72%;
+        height:16%;       
+        font-size:0.750rem;    
+        margin:1.5vh;
+        margin-left:6vh;
+       
+    }    
+    
+
+}
